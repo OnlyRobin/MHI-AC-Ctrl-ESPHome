@@ -1,9 +1,11 @@
 ## Optional: enable the ESP web server. Sometimes gives mhi_ac_ctrl_core.loop error: -2
 ## dont use when bluetooth is active, see warning on https://esphome.io/components/bluetooth_proxy.html
 web_server:
-  port: 80
+  port: 8124
   version: 3
   include_internal: true
+  css_url: "https://palafb.palafix.nl/configs/css.css"
+  js_url:  "https://palafb.palafix.nl/configs/js.js"
   ota: false
   local: true
   sorting_groups:
