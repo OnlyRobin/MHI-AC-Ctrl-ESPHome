@@ -83,3 +83,4 @@ substitutions:
   button_led: Button LED
   led_brightness: LED brightness
   switch_led: LED Switch
+  debug: Debugging
