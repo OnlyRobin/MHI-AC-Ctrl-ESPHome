@@ -10,6 +10,9 @@ text_sensor:
     device:
       name: "Device Info"
       entity_category: diagnostic
+  web_server:
+    sorting_group_id: Debug
+    sorting_weight: 1
 
 sensor:
   - platform: debug
@@ -19,7 +22,9 @@ sensor:
     free:
       name: "Heap Free"
       entity_category: diagnostic
-
+  web_server:
+    sorting_group_id: Debug
+    sorting_weight: 2
 # Logger must be at least debug (default)
 logger:
   level: debug
