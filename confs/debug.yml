@@ -2,7 +2,7 @@
 debug:
   update_interval: 5s
 
-sensor:
+text_sensor:
   - platform: debug
     reset_reason:
       name: "Reset Reason"
@@ -14,7 +14,7 @@ sensor:
       sorting_group_id: Debug
       sorting_weight: 1
 
-
+sensor:
   - platform: debug
     loop_time:
       name: "Loop Time"
